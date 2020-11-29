@@ -1,0 +1,172 @@
+<html>
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"> 
+    </script> 
+  
+    <!-- jQuery code to show  
+      the working of this method -->
+    <script> 
+        $(document).ready(function() { 
+            $("button").click(function() { 
+                $("html, body").animate({ 
+                    scrollTop: $( 
+                      'html, body').get(0).scrollHeight 
+                }, 2000); 
+            }); 
+        }); 
+    </script> 
+<style>
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: #ffadad;
+  color: white;
+}
+div.topnav {
+  overflow: hidden;
+  background-color: white;
+  height: 100px;
+  width: 100%;
+}
+h2.sidework{
+  display:inline;
+  float:right;
+  padding-right:30px;
+}
+h2.about{
+  display:inline;
+  float:right;
+  padding-right:150px;
+}
+img.logo{
+	float:left;
+	padding-top: 15;
+    height: 40px;
+    widtht: 50px;
+    padding-left: 100px;
+}
+img.disimg{
+    display:inline;
+    float: right;
+    padding-top: 50;
+    height: 300px;
+    width: 600px;
+    padding-right: 100;
+    padding-bottom: 50px;
+}
+h2.name{
+	float:left;
+	display:inline;
+}
+div.slideshow {
+  height: 420px;
+  width: 100%;
+  background-color: #ffadad;
+}
+h1.descrip {
+    padding-top: 20px;
+    padding-left: 125px;
+}
+h1.descrip2 {
+	display: inline;
+    padding-top: 5px;
+    padding-left: 125px;
+}
+h1.descrip1 {
+	color: white;
+    padding-left: 125px;
+}
+p.descrip3 {
+    width: 300px;
+    padding-left: 125px;
+    display: table-caption;
+}
+.button {
+  border: none;
+  color: white;
+  padding: 10px 22px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button1 {
+  background-color: black;
+  margin-left: 125px;}
+  
+div.select_works{
+	background-color: white;
+	text-align: center;
+	height: 60px;
+}
+div.works{
+margin: 25px;
+display: inline-block;
+width: 29%;
+}
+p.work_des{
+width: 45%;
+padding-left: 80px;
+}
+img.work_logo{
+padding-left: 80px;
+)
+</style>
+<head>
+<body>
+<div class="topnav">
+  <div>
+  <img class="logo" src="assets/img/logo.png"></img>
+  <h2 class="name">RamTeja</h2>
+  </div>
+  <h2 class="about">About</h2>
+  <h2 class="sidework">Work</h2>
+</div>
+<div class="slideshow">
+<div style="display: inline-block">
+<h1 class="descrip"> I am a </h1>
+<h1 class="descrip1">Creative</h1>
+<h1 class="descrip2">Full stack developer</h1>
+<p class="descrip3">Full developemnt development is the practice of converting data to a graphical interface, through the use of HTML, CSS, and JavaScript, so that users can view and interact with that data.</p>
+<button class="button button1">View Work</button>
+</div>
+<img class="disimg" src="assets/img/propic.jpeg"></img>
+</div>
+<div class="select_works">
+	<h1>Selected Works</h1>
+</div>
+        <div class="container"> 
+            <div class="works">
+			    <img class="work_logo" src="assets/img/pebble.jfif"></img>
+				<h1 style="padding-left: 80px"> PebbleBridge</h1>
+				<h3 style="padding-left: 80px"> Role:Python Developer </h3>
+                <p class="work_des"> 
+                    Designing various tools for the interal purposes of the company like Ranktool for SEO keywords,automation of report generation for price estimation and servers maintaince website.
+                </p> 
+            </div> 
+            <div class="works"> 
+				<img class="work_logo" src="assets/img/prompt.jfif"></img>
+				<h1 style="padding-left: 80px"> Promptcloud</h1>
+				<h3 style="padding-left: 80px"> Role:Data Enginner </h3>
+				<p class="work_des"> 
+                     Pipeline designing through various stages such as collecting data from various data sources, data cleansing, data mining and converting the data into client required formats.
+                </p> 
+            </div> 
+			<div class="works">
+				<img class="work_logo" src="assets/img/advarisk.jfif"></img>
+				<h1 style="padding-left: 80px"> AdvaRisk</h1>
+				<h3 style="padding-left: 80px"> Role:Software Enginner</h3>
+                <p class="work_des">
+                    Data modelling,Automation of various process using boto3,captcha solving,Api designing and creating an api endpoint for the client to access data.Resolving of bugs in framework.
+                </p> 
+            </div> 
+        </div> 
+		<footer>
+			<p>Author: tejachintham<br>
+			<a href="mailto:tejachintham@gmail.com">tejachintham@gmail.com</a></p>
+		</footer>
+</body>
+</html>
